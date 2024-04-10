@@ -88,9 +88,9 @@ print("Success: RR2(27, 6) is false!")
 
 ## MARK: Statement A:
 SetRedOutput()
-assert (not statementA) == False, "Failure: StatementA is true. Expected false!"
+assert statementA, "Failure: StatementA is false. Expected true!"
 SetGreenOutput()
-print("Success: StatemnetA is false!")
+print("Success: StatementA is true!")
 
 ResetOutputColor()
 
